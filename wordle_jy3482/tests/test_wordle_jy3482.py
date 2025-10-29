@@ -1,0 +1,1 @@
+from wordle_jy3482 import wordle_jy3482

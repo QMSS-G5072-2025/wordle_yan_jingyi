@@ -1,0 +1,1 @@
+from wordle_yan_jingyi import wordle_yan_jingyi
