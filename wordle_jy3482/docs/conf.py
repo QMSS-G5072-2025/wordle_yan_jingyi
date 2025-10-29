@@ -1,3 +1,8 @@
+autoapi_type = 'python'
+import os, sys
+sys.path.insert(0, os.path.abspath('../src'))
+extensions = ['sphinx.ext.autodoc','sphinx.ext.viewcode','myst_parser','sphinx_autodoc_typehints']
+html_theme = 'sphinx_rtd_theme'
 # Configuration file for the Sphinx documentation builder.
 #
 # This file only contains a selection of the most common options. For a full
@@ -34,3 +39,6 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # a list of builtin themes.
 #
 html_theme = "sphinx_rtd_theme"
+
+# Do not execute notebooks during doc build
+nb_execution_mode = 'off'

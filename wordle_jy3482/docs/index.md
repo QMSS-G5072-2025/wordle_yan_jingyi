@@ -11,3 +11,11 @@ contributing.md
 conduct.md
 autoapi/index
 ```
+
+## API Reference
+
+```{toctree}
+:maxdepth: 2
+
+api
+```
